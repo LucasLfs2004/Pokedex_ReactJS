@@ -13,11 +13,11 @@ export default ({ name, front_image, types }) => {
 
     return (
         <div className="card">
-                <img src={front_image} alt="Pokemon" />
-                <div className='text'>
-                    <span className="name-pokemon">{name}</span>
-                    <span className='abilities'>{typeHandler()}</span>
-                </div>
+            <img src={front_image} alt="Pokemon" />
+            <div className='text'>
+                <span className="name-pokemon">{name}</span>
+                <span className='abilities'>{typeHandler()}</span>
+            </div>
         </div>
     )
 }

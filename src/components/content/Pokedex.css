@@ -2,7 +2,6 @@ body {
     background-color: #EEE;
 }
 
-
 .cards {
     display: flex;
     flex-direction: row;

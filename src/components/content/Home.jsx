@@ -1,7 +1,6 @@
-import './Home.css'
-import React, { useContext, useEffect, useState } from 'react'
-import axios from 'axios';
-import PokemonInicial from '../assets/images/pikachuInicial.png'
+import './Home.css';
+import React from 'react';
+import PokemonInicial from '../assets/images/pikachuInicial.png';
 
 export default props => {
     return (
@@ -15,10 +14,8 @@ export default props => {
                     <span>Bem vindo, esse é um projeto de desenvolvimento em React. </span> <br />
                     <span>Para ver a listagem dos Pokemons, clique no botão no canto superior direito da página.</span>
                 </div>
-
-
                 <div className='text-home'>
-                <h1 className='title-apresentation'>Funcionalidades implementadas</h1>
+                    <h1 className='title-apresentation'>Funcionalidades implementadas</h1>
                     <ul>
                         <li>
                             Lista dos principais pokemons;
@@ -37,7 +34,6 @@ export default props => {
                         </li>
                     </ul>
                 </div>
-
             </div>
         </div>
     )

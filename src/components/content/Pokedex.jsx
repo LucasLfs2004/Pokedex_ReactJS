@@ -1,8 +1,8 @@
-import './Pokedex.css'
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
-import Card from '../template/Card'
-import lupa from '../../components/assets/images/lupa.png'
+import './Pokedex.css';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import Card from '../template/Card';
+import lupa from '../../components/assets/images/lupa.png';
 
 export const Pokedex = () => {
     const [pokemons, setPokemons] = useState([]);
@@ -54,6 +54,5 @@ export const Pokedex = () => {
 
     )
 }
-
 
 export default Pokedex

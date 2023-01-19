@@ -1,4 +1,5 @@
 :root {
+    --bg-dark: #111;
     --bg-grey: #EDEDED;
     --color-red: #CE2727;
     --color-yellow: #FFD900;
@@ -12,8 +13,8 @@
     height: 80px;
     font-size: 1.4rem;
     text-align: center;
-    color: var(--color-red);
-    background-color: var(--bg-grey);
+    color: var(--color-yellow);
+    background-color: var(--bg-dark);
 }
 
 .title {
